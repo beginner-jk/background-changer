@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40vh;
+}
+
+div {
+  font-size: 60px;
+}
+
+button {
+  font-size: 20px;
+  padding: 20px 40px;
+  border: none;
+  color: white;
+  background-color: #6c757c;
+  border-radius: 10px;
+}
+
+button:active {
+  opacity: 0.5;
+}
